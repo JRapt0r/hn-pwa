@@ -15,7 +15,8 @@
         "react-router-dom": "^5.2.0",
         "react-scripts": "4.0.1",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-        "web-vitals": "^0.2.4"
+        "web-vitals": "^0.2.4",
+        "workbox-cli": "^6.1.2"
     },
     "scripts": {
         "dev": "craco start",
@@ -40,8 +41,5 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "devDependencies": {
-        "workbox-build": "^5.1.4"
     }
 }
