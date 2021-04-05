@@ -32,7 +32,7 @@ Progressive web app for browsing [Hacker News](https://en.wikipedia.org/wiki/Hac
 npm install # or yarn
 
 # start development server
-npm start
+npm run dev
 
 # build for production
 npm run build

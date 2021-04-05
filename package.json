@@ -18,7 +18,7 @@
         "web-vitals": "^0.2.4"
     },
     "scripts": {
-        "start": "craco start",
+        "dev": "craco start",
         "build": "craco build && workbox generateSW workbox-config.js",
         "test": "craco test",
         "eject": "react-scripts eject"
@@ -40,5 +40,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "workbox-build": "^5.1.4"
     }
 }
