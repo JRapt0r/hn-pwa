@@ -1,4 +1,4 @@
-# Hacker News Progressive Web Application
+# Hacker News PWA
 
 Progressive web app for browsing [Hacker News](https://en.wikipedia.org/wiki/Hacker_News). Focused on small touches missing from similar projects. 
 
