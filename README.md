@@ -1,6 +1,6 @@
 # Hacker News Progressive Web Application
 
-Progressive web app for browsing [Y Combinator's Hacker News](https://en.wikipedia.org/wiki/Hacker_News). Focused on small touches missing from similar projects. 
+Progressive web app for browsing [Hacker News](https://en.wikipedia.org/wiki/Hacker_News). Focused on small touches missing from similar projects. 
 
 <p align="center">
   <a href="#" target="_blank">
@@ -19,7 +19,7 @@ Progressive web app for browsing [Y Combinator's Hacker News](https://en.wikiped
   - App manifest
   - Service worker
   - 100/100 Lighthouse score
-- TailwindCSS 2.0 integration
+- TailwindCSS 2.0
   - Responsive, mobile first design
   - Light/dark theme availible (set automatically based off device theme)
 
