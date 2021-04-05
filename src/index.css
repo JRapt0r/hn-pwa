@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+pre {
+    @apply py-2 overflow-auto text-sm bg-black border dark:border-coal-light dark:bg-white bg-opacity-5;
+    margin-bottom: 0.75rem !important;
+}
+
+.comment-body a {
+    @apply text-blue-700 underline focus:bg-blue-700 dark:focus:bg-blue-300 dark:text-blue-300 focus:bg-opacity-10;
+}
+
+body {
+    @apply overflow-y-scroll bg-white dark:bg-coal-dark;
+}
