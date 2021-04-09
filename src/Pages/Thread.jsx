@@ -10,7 +10,7 @@ function Thread() {
   return (
     error || loading ||
     <Comments>
-      <ThreadTitle url={res.url} time={res.time} timeAgo={res.time_ago}
+      <ThreadTitle url={res.url} time={res.time} timeAgo={res.time_ago} score={res.points}
         user={res.user} domain={res.domain} title={res.title} numComments={res.comments_count}>
           {res.content}
       </ThreadTitle>

@@ -16,7 +16,7 @@ function User() {
 
       <div className="mt-3 space-y-2" dangerouslySetInnerHTML={{ __html: res.about }}></div>
 
-      <div className="flex flex-col mt-4 space-y-2">
+      <div className="flex flex-col pb-4 my-4 space-y-2">
         <div className="font-medium">
           <a className="dark:hover:text-white" target="_blank" rel="noreferrer" href={`https://news.ycombinator.com/submitted?id=${username}`}>
             View {res.submission_count} submissions

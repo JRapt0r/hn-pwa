@@ -26,7 +26,7 @@ function ResultInfo({ user, numComments, timeAgo, time, id }) {
   return (
     <div className="flex flex-row text-sm text-black divide-x divide-black dark:divide-white dark:text-white text-opacity-80 divide-opacity-25">
 
-      <div className="py-1 pr-2 space-x-1">
+      <div className="py-1 pr-2">
         <span title={(new Date(time * 1000)).toLocaleString()}>
           {timeAgo}
         </span>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 pre {
-    @apply py-2 overflow-auto text-sm bg-black border dark:border-coal-light dark:bg-white bg-opacity-5;
+    @apply py-2 overflow-auto text-xs bg-black border sm:text-sm dark:border-coal-light dark:bg-white bg-opacity-5;
     margin-bottom: 0.75rem !important;
 }
 

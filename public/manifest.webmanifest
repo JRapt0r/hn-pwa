@@ -1,7 +1,7 @@
 {
   "short_name": "Hacker News",
   "name": "Hacker News",
-  "description": "A Hacker News progressive web app built with React.",
+  "description": "A progressive web app for browsing Hacker News.",
   "icons": [
     {
       "src": "favicon.ico",
