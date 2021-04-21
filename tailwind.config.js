@@ -5,6 +5,9 @@ module.exports = {
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
+      fontSize: {
+        'sm': '0.9125rem',
+      },
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
         mono: ['Roboto Mono', 'monospace']
